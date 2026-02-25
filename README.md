@@ -40,21 +40,21 @@ Metadata filtering: Search by tags, dates, categories
 * AUGMENTS with context
 * GENERATE perfect questions
 
-✂️ Advanced Chunking for RAG
-🔄 Evolution from Vector Databases Lab:
-Vector Databases Lab Strategy
-Fixed 500 chars
-100 char overlap
+* ✂️ Advanced Chunking for RAG
+* 🔄 Evolution from Vector Databases Lab:
+* Vector Databases Lab Strategy
+    * Fixed 500 chars
+    * 100 char overlap
 →
 RAG Strategy
 Paragraph-based
 Semantic boundaries
-📊 Smart Chunking Visualization:
+* 📊 Smart Chunking Visualization:
 Document: [=========================================]
-↓ Split by paragraphs
-Paragraphs: [Para 1] [Para 2] [Para 3] [Para 4]
-↓ Add 20% overlap
-Chunks: [Chunk 1: Para1 + 20%Para2 ]
-[Chunk 2: 80%Para2 + Para3 + 20%Para4]
-[Chunk 3: 80%Para4 + Para5 ]
-💡 Why paragraph-based? Preserves complete thoughts for better context in generation!
+* ↓ Split by paragraphs
+    * Paragraphs: [Para 1] [Para 2] [Para 3] [Para 4]
+* ↓ Add 20% overlap
+    * Chunks: [Chunk 1: Para1 + 20%Para2 ]
+    * [Chunk 2: 80%Para2 + Para3 + 20%Para4]
+    * [Chunk 3: 80%Para4 + Para5 ]
+* Why paragraph-based? Preserves complete thoughts for better context in generation!
