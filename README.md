@@ -34,3 +34,27 @@ Local-first: No cloud dependency
 Production-ready: Used by real companies
 Simple API: 5 lines to get started
 Metadata filtering: Search by tags, dates, categories
+
+🎯Transform your semantic search into a complete **RAG(Retrieval-Augmented Generation)** sytem that:
+* RETRIEVE relevant documents (you built this)
+* AUGMENTS with context
+* GENERATE perfect questions
+
+✂️ Advanced Chunking for RAG
+🔄 Evolution from Vector Databases Lab:
+Vector Databases Lab Strategy
+Fixed 500 chars
+100 char overlap
+→
+RAG Strategy
+Paragraph-based
+Semantic boundaries
+📊 Smart Chunking Visualization:
+Document: [=========================================]
+↓ Split by paragraphs
+Paragraphs: [Para 1] [Para 2] [Para 3] [Para 4]
+↓ Add 20% overlap
+Chunks: [Chunk 1: Para1 + 20%Para2 ]
+[Chunk 2: 80%Para2 + Para3 + 20%Para4]
+[Chunk 3: 80%Para4 + Para5 ]
+💡 Why paragraph-based? Preserves complete thoughts for better context in generation!
