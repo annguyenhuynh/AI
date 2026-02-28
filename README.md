@@ -58,3 +58,38 @@ Document: [=========================================]
     * [Chunk 2: 80%Para2 + Para3 + 20%Para4]
     * [Chunk 3: 80%Para4 + Para5 ]
 * Why paragraph-based? Preserves complete thoughts for better context in generation!
+
+* 🪜 What is LangGraph?
+* LangGraph is a framework for building stateful, multi-step AI workflows using graphs. Unlike simple LLM chains, LangGraph gives you explicit control over how data flows through your application, enabling complex decision-making, loops, and conditional 
+
+* langgraph - Stateful graph framework
+* langchain - Core LLM abstractions
+* langchain-openai - OpenAI integration
+* duckduckgo-search - Web search tool
+
+⭐️ THE ESSENTIAL PIECES
+* Before we dive in, let's understand what we'll be building with:
+
+📦 Imports
+• StateGraph (the container)
+• END (marks completion)
+• TypedDict (defines data)
+⚙️ Nodes
+• Python functions
+• Take state as input
+• Return partial updates
+🔗 Edges
+• Connect nodes together
+• Define execution order
+• Can be conditional
+📊 State
+• Data flowing through
+• Shared between nodes
+• Updated at each step
+
+🎯 SIMPLE EXAMPLE
+💠 Think of it like a recipe:
+1. Ingredients (State) = Your data
+2. Steps (Nodes) = Functions that transform data
+3. Instructions (Edges) = "Do this, then that"
+4. Recipe Book (StateGraph) = Puts it all together!
