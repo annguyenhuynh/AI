@@ -93,3 +93,48 @@ Document: [=========================================]
 2. Steps (Nodes) = Functions that transform data
 3. Instructions (Edges) = "Do this, then that"
 4. Recipe Book (StateGraph) = Puts it all together!
+
+* What is MCP?
+* **Model Context Protocol (MCP)** is an open protocol for connecting AI to external tools. Think of it as a USB port for AI - a standardized way for models to interact
+
+* Build on Your LangGraph Knowledge
+* Extend your LangGraph agents with MCP servers - from simple calculator tools to orchestrating multiple services.
+
+* Your 3-Step MCP Journey
+📡
+MCP Basics
+Create server
+🔌
+Integration
+Connect to LangGraph
+🌐
+Multi-Server
+
+🧩 Understanding MCP Architecture
+THE MCP ECOSYSTEM
+MCP creates a bridge between AI and external tools:
+
+🤖
+AI Assistant
+(LangGraph)
+MCP Protocol
+stdio • SSE • HTTP
+🔧
+MCP Server
+(Your Tools)
+📦 MCP Server
+• Exposes tools
+• Defines schemas
+• Handles requests
+🔧 Tools
+• Functions with @tool
+• Input parameters
+• Structured responses
+🔌 Integration
+• Bind to LLMs
+• Route queries
+• Handle responses
+🎯 Naming
+• mcp__server__tool
+• Consistent pattern
+• Clear hierarchy
